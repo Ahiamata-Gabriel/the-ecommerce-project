@@ -1,4 +1,5 @@
-import Logo from "../assets/logo.png";
+import Logo from "../../assets/logo.png";
+import "./Header.css";
 
 const Header = () => {
   return (
@@ -8,15 +9,7 @@ const Header = () => {
           <img src={Logo} alt="Site Logo" />
         </a>
       </div>
-      <div>
-        <button
-          type="submit"
-          class="search-button"
-          aria-label="Search products"
-        >
-          <span class="search-button__label">Search</span>
-        </button>
-      </div>
+      <div></div>
       <div></div>
     </header>
   );

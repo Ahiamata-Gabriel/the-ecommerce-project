@@ -1,0 +1,10 @@
+.Search-button {
+  display: inline-flex;
+  align-items: center;
+  background: transparent;
+  border: 1px solid black;
+  padding: 0.35rem 0.6rem;
+  border-radius: 6px;
+  color: inherit;
+  cursor: pointer;
+}
