@@ -1,7 +1,12 @@
 import "./App.css";
+import Header from "./layouts/Header.jsx";
 
 function App() {
-  return <>GOD IS LOVE</>;
+  return (
+    <div className="App">
+      <Header />
+    </div>
+  );
 }
 
 export default App;
