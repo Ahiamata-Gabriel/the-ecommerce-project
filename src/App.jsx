@@ -1,7 +1,7 @@
 import "./App.css";
 
 function App() {
-  return <></>;
+  return <>GOD IS LOVE</>;
 }
 
 export default App;
