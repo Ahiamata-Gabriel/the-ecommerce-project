@@ -10,3 +10,8 @@ html {
   scroll-behavior: smooth;
   font-size: 62.5%;
 }
+
+.App {
+  margin: 0 auto;
+  max-width: 1279px;
+}
