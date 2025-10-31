@@ -1,8 +1,8 @@
 import Logo from "../../assets/logo.png";
 import "./Header.css";
-import Search from "../../features/Search/Search";
+import Search from "../../features/Search/Search.jsx";
 
-const Header = () => {
+function Header() {
   return (
     <header className="Header">
       <div>
@@ -39,6 +39,6 @@ const Header = () => {
       </nav>
     </header>
   );
-};
+}
 
 export default Header;
