@@ -1,5 +1,6 @@
 import Logo from "../../assets/logo.png";
 import "./Header.css";
+import Search from "../../features/Search/Search";
 
 const Header = () => {
   return (
@@ -9,7 +10,9 @@ const Header = () => {
           <img src={Logo} alt="Site Logo" />
         </a>
       </div>
-      <div></div>
+      <div>
+        <Search />
+      </div>
       <div></div>
     </header>
   );
