@@ -1,24 +1,24 @@
 const Nav = () => {
   return (
     <nav className="Nav" role="navigation" aria-label="Main">
-      <ul className="primary-nav__list">
-        <li className="primary-nav__item">
-          <a href="/account" className="primary-nav__link">
+      <ul className="nav-list">
+        <li className="nav-item">
+          <a href="/account" className="nav-link">
             Account
           </a>
         </li>
-        <li className="primary-nav__item">
-          <a href="/Help" className="primary-nav__link">
+        <li className="nav-item">
+          <a href="/Help" className="nav-link">
             Help
           </a>
         </li>
-        <li className="primary-nav__item">
-          <a href="/Cart" className="primary-nav__link">
+        <li className="nav-item">
+          <a href="/Cart" className="nav-link">
             Cart
           </a>
         </li>
-        <li className="primary-nav__item">
-          <a href="/contact" className="primary-nav__link">
+        <li className="nav-item">
+          <a href="/contact" className="nav-link">
             Contact
           </a>
         </li>
