@@ -4,6 +4,7 @@
 }
 
 .search-wrapper {
+  display: flex;
 }
 
 .search-input {

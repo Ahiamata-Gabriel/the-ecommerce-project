@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./Search.css";
 
 export default function Search() {
   const [query, setQuery] = useState("");
@@ -14,6 +15,8 @@ export default function Search() {
     <form onSubmit={handleSubmit} className="search-form">
       <div className="search-wrapper">
         <input
+          id="site-search"
+          name="q"
           type="search"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
