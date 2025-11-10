@@ -7,20 +7,20 @@
   display: flex;
 }
 
-.search-input {
+/* .search-input {
 }
 
 .search-input:focus {
 }
 
 .search-icon {
-}
+} */
 
 /* Remove the default search input clear button in Chrome */
-.search-input::-webkit-search-cancel-button {
+/* .search-input::-webkit-search-cancel-button {
   display: none;
-}
+} */
 
 /* Placeholder styling */
-.search-input::placeholder {
-}
+/* .search-input::placeholder {
+} */

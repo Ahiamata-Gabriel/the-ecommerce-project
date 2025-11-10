@@ -5,7 +5,7 @@ import Nav from "../../features/Nav/Nav.jsx";
 
 function Header() {
   return (
-    <Header className="Header">
+    <header className="Header">
       <div>
         <a href="/" className="Logo" aria-label="Home">
           <img src={Logo} alt="Site Logo" />
@@ -17,7 +17,7 @@ function Header() {
       <div>
         <Nav />
       </div>
-    </Header>
+    </header>
   );
 }
 
