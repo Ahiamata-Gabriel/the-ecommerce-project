@@ -2,12 +2,6 @@
   margin-left: auto; /* Push to the end in a flex container */
 }
 
-.svg {
-  /* width: 1.5rem;
-  height: 1.5rem; */
-  margin-right: 0.5rem;
-}
-
 .Nav-list {
   list-style: none;
   display: flex;
