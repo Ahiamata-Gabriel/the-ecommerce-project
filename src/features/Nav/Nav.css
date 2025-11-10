@@ -2,6 +2,12 @@
   margin-left: auto; /* Push to the end in a flex container */
 }
 
+.svg {
+  /* width: 1.5rem;
+  height: 1.5rem; */
+  margin-right: 0.5rem;
+}
+
 .Nav-list {
   list-style: none;
   display: flex;
@@ -10,11 +16,18 @@
   gap: 20px;
 }
 
-.Nav-link {
-  text-decoration: none;
-  font-size: 2.5rem;
+.Nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.Nav-link a {
+.Nav-link {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.Nav-link {
   color: #000;
 }

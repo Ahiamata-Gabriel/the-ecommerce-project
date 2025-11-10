@@ -1,23 +1,27 @@
 .search-form {
   width: 100%;
-  flex: 1;
+  display: block;
 }
 
 .search-wrapper {
   position: relative;
   display: flex;
   align-items: center;
-  width: 90%;
+  justify-content: center;
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto; /* center inside the grid's center column */
   border: 1px solid #000;
   border-radius: 50px;
 }
 
 .search-input {
   width: 100%;
-  padding: 1rem 2.5rem 1rem 1rem; /* Extra padding for the icon */
+  padding: 0 4rem 0 2rem;
+  height: 3.5rem;
   border: 0;
   border-radius: 100px;
-  font-size: 1rem;
+  font-size: 1.8rem;
   outline: none;
 }
 
@@ -26,6 +30,7 @@
   color: #000;
   font-weight: 300;
   justify-self: center;
+  margin-left: 2rem;
 }
 
 /* Position the search icon */
@@ -33,4 +38,23 @@
   pointer-events: none;
   color: #000;
   margin-right: 2rem;
+}
+
+/* remove the native clear button in WebKit (Chrome, Safari) */
+.search-input::-webkit-search-cancel-button,
+.search-input::-webkit-search-decoration {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* remove clear/reveal buttons in IE/Edge legacy */
+.search-input::-ms-clear,
+.search-input::-ms-reveal {
+  display: none;
+}
+
+/* reset default appearance as fallback */
+.search-input {
+  -webkit-appearance: none;
+  appearance: none;
 }

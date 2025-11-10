@@ -8,10 +8,11 @@
 }
 
 .header-inner {
-  display: flex;
-  justify-content: center;
+  /* Use a 3-column grid: logo | center (search) | nav */
+  display: grid;
+  grid-template-columns: auto 1fr auto;
   align-items: center;
-  gap: 6rem;
+  gap: 2rem;
   max-width: 1279px;
   width: 100%;
   margin: 0 auto;
@@ -20,5 +21,5 @@
 .Logo-container {
   display: flex;
   align-items: center;
-  /* margin-right: 2rem; */
+  justify-content: center;
 }

@@ -26,8 +26,8 @@ export default function Search() {
         />
         <div className="search-icon" aria-hidden="true">
           <svg
-            width="20"
-            height="20"
+            width="22"
+            height="22"
             viewBox="0 0 33 34"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
