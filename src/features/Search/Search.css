@@ -1,26 +1,13 @@
 .search-form {
   width: 100%;
-  max-width: 400px;
+  max-width: 500px;
+  background-color: green;
 }
 
 .search-wrapper {
   display: flex;
 }
 
-/* .search-input {
+.search-input {
+  width: 100%;
 }
-
-.search-input:focus {
-}
-
-.search-icon {
-} */
-
-/* Remove the default search input clear button in Chrome */
-/* .search-input::-webkit-search-cancel-button {
-  display: none;
-} */
-
-/* Placeholder styling */
-/* .search-input::placeholder {
-} */
