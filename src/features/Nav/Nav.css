@@ -1,15 +1,20 @@
 .Nav {
-  background-color: blue;
   margin-left: auto; /* Push to the end in a flex container */
 }
 
 .Nav-list {
   list-style: none;
   display: flex;
-
+  align-items: center;
+  justify-content: center;
   gap: 20px;
 }
 
 .Nav-link {
   text-decoration: none;
+  font-size: 2.5rem;
+}
+
+.Nav-link a {
+  color: #000;
 }

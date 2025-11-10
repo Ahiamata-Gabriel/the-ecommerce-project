@@ -1,15 +1,24 @@
-.Headerr {
+.header {
   display: flex;
-  justify-content: start;
+  justify-content: center;
+  align-items: center;
   background-color: #ffffff;
   padding: 1.6rem 0;
+  width: 100%;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+  max-width: 1279px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .Logo-container {
-  background-color: blueviolet;
-  margin-right: 5rem;
+  display: flex;
+  align-items: center;
+  /* margin-right: 2rem; */
 }
-
-/* .Search-container {
-  margin-right: 5rem;
-} */

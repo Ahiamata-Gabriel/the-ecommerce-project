@@ -1,14 +1,36 @@
 .search-form {
   width: 100%;
-  max-width: 500px;
-  background-color: green;
-  margin-right: 5rem;
+  flex: 1;
 }
 
 .search-wrapper {
+  position: relative;
   display: flex;
+  align-items: center;
+  width: 90%;
+  border: 1px solid #000;
+  border-radius: 50px;
 }
 
 .search-input {
   width: 100%;
+  padding: 1rem 2.5rem 1rem 1rem; /* Extra padding for the icon */
+  border: 0;
+  border-radius: 100px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.search-input::placeholder {
+  font-size: 2rem;
+  color: #000;
+  font-weight: 300;
+  justify-self: center;
+}
+
+/* Position the search icon */
+.search-icon {
+  pointer-events: none;
+  color: #000;
+  margin-right: 2rem;
 }

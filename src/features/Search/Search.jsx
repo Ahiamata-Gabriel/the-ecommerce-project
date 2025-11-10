@@ -20,7 +20,7 @@ export default function Search() {
           type="search"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Search..."
+          placeholder="search..."
           className="search-input"
           aria-label="Search products"
         />
