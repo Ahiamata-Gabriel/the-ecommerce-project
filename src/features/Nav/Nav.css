@@ -1,10 +1,12 @@
 .Nav {
   background-color: blue;
+  margin-left: auto; /* Push to the end in a flex container */
 }
 
 .Nav-list {
   list-style: none;
   display: flex;
+
   gap: 20px;
 }
 
