@@ -5,18 +5,14 @@ import Nav from "../../features/Nav/Nav.jsx";
 
 function Header() {
   return (
-    <header className="Header">
-      <div>
+    <header className="Headerr">
+      <div className="Logo-container">
         <a href="/" className="Logo" aria-label="Home">
           <img src={Logo} alt="Site Logo" />
         </a>
       </div>
-      <div>
-        <Search />
-      </div>
-      <div>
-        <Nav />
-      </div>
+      <Search />
+      <Nav />
     </header>
   );
 }

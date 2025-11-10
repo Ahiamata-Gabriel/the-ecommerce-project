@@ -1,3 +1,5 @@
-.Header {
+.Headerr {
   display: flex;
+  justify-content: space-around;
+  background-color: antiquewhite;
 }
