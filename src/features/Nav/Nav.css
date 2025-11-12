@@ -1,27 +1,40 @@
-.Nav {
+.nav {
   margin-left: auto; /* Push to the end in a flex container */
 }
 
-.Nav-list {
+.nav-list {
   list-style: none;
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 20px;
+  margin: 0;
+  padding: 0;
 }
 
-.Nav-item {
-  display: flex;
+.nav-item {
+  display: block;
+}
+
+.nav-link {
+  display: inline-flex;
   align-items: center;
-  justify-content: center;
-}
-
-.Nav-link {
+  gap: 0.5rem;
   text-decoration: none;
   font-size: 2rem;
   font-weight: 400;
+  color: #000;
 }
 
-.Nav-link {
+.nav-link:visited {
   color: #000;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #1f2937;
+}
+
+.nav-icon {
+  display: inline-block;
+  vertical-align: middle;
 }
