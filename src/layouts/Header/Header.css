@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 1.4rem 0;
+  width: 100%;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.header-inner {
+  /* Use a 3-column grid: logo | center (search) | nav */
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 2rem;
+  max-width: 1279px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.Logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
