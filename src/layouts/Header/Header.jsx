@@ -1,7 +1,7 @@
 import Logo from "../../assets/logo.png";
 import "./Header.css";
 import Search from "../../features/Search/Search.jsx";
-import Nav from "../../features/Nav/Nav.jsx";
+import Nav from "../Nav/Nav.jsx";
 
 function Header() {
   return (
