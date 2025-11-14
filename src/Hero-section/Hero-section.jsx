@@ -1,7 +1,12 @@
 import React from "react";
+import HeroCarousel from "./HeroCarousel";
 
 const Hero = () => {
-  return <div>Hero-section</div>;
+  return (
+    <div>
+      <HeroCarousel />
+    </div>
+  );
 };
 
 export default Hero;
