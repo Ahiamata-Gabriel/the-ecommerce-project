@@ -7,8 +7,7 @@ const useCarouselLaptops = () =>
     queryFn: async () => {
       const { data, error } = await supabase
         .from("products")
-        .select("id, name, price, product_images(url, is_primary)")
-        .eq("carousel", true)
+        .select("id, name, price")
         .limit(5);
 
       if (error) {
