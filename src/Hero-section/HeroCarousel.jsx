@@ -1,23 +1,29 @@
+import React from "react";
 import useCarouselLaptops from "../Hooks/useCarouselLaptops";
-import Swiper from "swiper";
 
 const HeroCarousel = () => {
-  const { data, error, isPending } = useCarouselLaptops();
-  console.log("Carousel data:", data);
-  console.log("Carousel error:", error);
+  const { data, error, isLoading } = useCarouselLaptops();
 
-  if (isPending) return <div>Loading carousel...</div>;
+  if (isLoading) return <div>Loading carousel...</div>;
   if (error) return <div>Error: {error.message}</div>;
+  if (!data || data.length === 0) return <div>No carousel items found</div>;
 
   return (
-    // <Swiper autoplay loop>
-    //   {data.map((laptop) => (
-    //     <SwiperSlide key={laptop.id}>
-    //       {/* Show image, name, and call to action */}
-    //     </SwiperSlide>
-    //   ))}
-    // </Swiper>
-    <h1>Hero Carousel</h1>
+    <div className="hero-carousel">
+      {data.map((item) => (
+        <figure className="hero-slide" key={item.id}>
+          {item.image1 ? (
+            <img src={item.image1} alt={item.name ?? "carousel image"} />
+          ) : (
+            <div className="hero-slide-placeholder">No image</div>
+          )}
+          <figcaption className="hero-slide-caption">
+            {item.name && <h3>{item.name}</h3>}
+            {item.price && <p>{item.price}</p>}
+          </figcaption>
+        </figure>
+      ))}
+    </div>
   );
 };
 
